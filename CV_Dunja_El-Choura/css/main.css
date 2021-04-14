@@ -202,6 +202,9 @@ ul:last-child, li:last-child {
 .education-section .timeline, .work-experience-section .timeline {
     flex-grow: 1;
 }
+.exp-edu-wrapper {
+    margin-bottom: 3rem;
+}
 @media (min-width: 48em) {
     .site-title {
         float: left;
