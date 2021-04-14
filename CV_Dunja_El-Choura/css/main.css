@@ -1,0 +1,297 @@
+/* roboto-300 - latin-ext_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v20-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v20-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-ext_latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin-ext_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v20-latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v20-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-ext_latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin-ext_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v20-latin-ext_latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v20-latin-ext_latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-ext_latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-ext_latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin-ext_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v20-latin-ext_latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../fonts/roboto-v20-latin-ext_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/roboto-v20-latin-ext_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/roboto-v20-latin-ext_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/roboto-v20-latin-ext_latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* Timeline custom component */
+.timeline-card {
+    position: relative;
+    margin-left: 16px;
+}
+
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+
+.timeline-body {
+    border-left: 2px solid #E6E9ED;
+}
+
+.timeline-card-primary:before {
+    border-color: var(--bs-primary);
+}
+
+.timeline-card-info:before {
+    border-color: var(--bs-info);
+}
+
+.timeline-card-secondary:before {
+    border-color: var(--bs-secondary);
+}
+
+.timeline-card-success:before {
+    border-color: var(--bs-teal);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.site-title {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.nav-link {
+    padding: 0;
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color: inherit;
+    opacity: 0.8;
+}
+
+.header-social .nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: inherit;
+    opacity: 1;
+}
+
+.nav-item + .nav-item {
+    margin-left: 1rem;
+}
+
+.cover {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#intro .bg-info {
+    background-color: #8BC6EC !important;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%) !important;
+
+}
+.portfolio-dark-bg {
+    height: 400px;
+    background-color: #4f4f4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.portfolio-dark-bg h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.portfolio-dark-bg a {
+    color: #ffffff;
+}
+.progress-bar {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.text-small {
+    font-size: 0.85rem;
+}
+
+.text-teal {
+    color: var(--bs-teal) !important;
+}
+#experience, #education {
+    height: 100%;
+}
+#languages, #references {
+    margin-top: 3rem;
+}
+#languages .progress-bar {
+    background-color: var(--bs-teal);
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul:last-child, li:last-child {
+    margin-bottom: 0;
+}
+.portfolio-text {
+    width: 100%;
+}
+#experience li {
+    margin-bottom: 0.3rem;
+}
+.education-section, .work-experience-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.education-section .timeline, .work-experience-section .timeline {
+    flex-grow: 1;
+}
+@media (min-width: 48em) {
+    .site-title {
+        float: left;
+    }
+
+    .site-nav {
+        float: right;
+    }
+}
+
+@media (max-width: 767px) {
+    /* disable animations on mobile */
+    [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+    }
+
+    .p-5 {
+        padding: 2.5rem 2rem !important;
+    }
+
+    .portfolio-section .m-5 {
+        margin: 2rem 0 1rem !important;
+    }
+
+    .portfolio-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .portfolio-reverse .text-end {
+        text-align: start !important;
+    }
+
+    .exp-edu-wrapper > .col-md-6:first-child {
+        margin-bottom: 3rem;
+    }
+}
+
+@media print {
+    [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+    }
+
+    body.bg-light {
+        background-color: #fff !important;
+    }
+
+    .container {
+        width: auto;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .cover {
+        height: 360px;
+        margin-bottom: 1.5rem;
+    }
+
+    .cover > img {
+        display: none;
+    }
+
+    .shadow-1-strong {
+        box-shadow: none !important;
+    }
+
+    .resume-container > .my-5 {
+        margin: 0 !important;
+    }
+
+    .my-5.p-5 {
+        padding: 1.5rem 0 !important;
+    }
+
+    .about-section {
+        padding: 0 !important;
+    }
+
+    .skills-section,
+    .work-experience-section,
+    .education-section,
+    .portfolio-section,
+    .reference-section,
+    .contact-section {
+        padding: 0 !important;
+    }
+
+    .page-break {
+        padding-top: 5rem;
+        page-break-before: always;
+    }
+}
