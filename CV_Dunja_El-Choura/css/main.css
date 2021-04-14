@@ -191,7 +191,7 @@ ul:last-child, li:last-child {
 .portfolio-text {
     width: 100%;
 }
-#experience li {
+#experience li, #education li {
     margin-bottom: 0.3rem;
 }
 .education-section, .work-experience-section {
